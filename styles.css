@@ -1,3 +1,11 @@
+/* Colors *********************
+    #002D5F - BLU
+    #437D9A - BLU SLAVATO
+    #7F8F23 - VERDE
+    #FEB811 - GIALLO
+    #FA161B - ROSSO
+********************************/
+
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
@@ -11,26 +19,31 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
 /* Link Styles */
 
 a {
   text-decoration: none;
   color: #999;
 }
-a:hover {
-  color: #6633ff;
+
+
+a:hover, a.selected {
+  color:  #FEB811;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #002D5F;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  border-bottom: 1px solid #437D9A;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -51,9 +64,7 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
-  color: white
-}
+
 
 header {
   text-align: center;
@@ -160,6 +171,10 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+a.facebook {
+  background-image: url(images/facebook1.png);
+}
+
 a.social:hover {
   opacity: 1;
 }
