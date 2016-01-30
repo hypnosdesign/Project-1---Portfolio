@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/capoterra.jpg') no-repeat center center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #1FA58A;
 }
 
 ul.skills {
